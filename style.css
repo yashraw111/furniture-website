@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Playwrite+MX+Guides&display=swap');
+
+
+
+body {
+
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    /* font-weight: 800; */
+    /* font-style: normal; */
+  }
+  
+  .first-page{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+                  url('./images/sofa.jpg');
+    background-position: center;
+    background-size: cover;
+   min-height: 100vh;
+    width: 100%;
+  }
+  /* .first-page .container{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+  } */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6f4e37;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #6f4e37;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    color: #6f4e37;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-info i {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    color: #6f4e37;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .img-fluid {
+    max-height: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .about-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+    url('./images/back-2.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+    width: 100%;
+  }
+  
+
+.about-section  .content {
+    background: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    /* padding: 30px; */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+.about-section  h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #5d4037;
+  }
+.about-section  h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+ .about-section .text-section {
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+
+
+.processing{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+    url('./images/blue-wall.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+.processing  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d2d1d1;
+    text-transform: uppercase;
+  }
+  .processing .underline{
+    color: #d2d1d1;
+  }
+ .processing h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: white;
+  }
+ .processing .underline {
+    display: inline-block;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+  }
+  .processing .content p{
+    color: #d2d1d1;
+  }
+ .processing .content {
+    text-align: center;
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+ .processing .content h3 {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: rgb(248, 241, 233);
+    text-transform: capitalize;
+  }
+
+.Desing-con{
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+    url('./images/black-white-background.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+ .Desing-con h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+ .Desing-con ul {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #3f3025;
+    list-style-type: disc;
+    padding-left: 40px;
+  }
+ .Desing-con .dotted-line {
+    border-bottom: 2px dotted black;
+    margin: 20px 0;
+  }
+ .Desing-con .image-section h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+ .Desing-con .image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  /* .Desing-con img{
+    height: 300px;
+    width: 300px;
+  } */
+
+  .Textures{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+    url('./images/gold_wooden_brush_stroke_line_texture.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+
+
+  }
+  .Textures h1{
+    color: #5d4037;
+    font-weight: 800;
+  }
+
+  .decor{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+    url('./images/gold_wooden_brush_stroke_line_texture.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+
+
+  }
+  .decor h1{
+    color: #5d4037;
+    font-weight: 800;
+  }
+  .layout{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+    url('./images/gold_wooden_brush_stroke_line_texture.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+
+
+  }
+  .layout h1{
+    color: #5d4037;
+    font-weight: 800;
+  }
+  .kitchen{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url('./images/kitchen-2165756.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+
+  }
+  .kitchen p{
+    color: rgb(215, 213, 213);
+  }
+
+  .interior {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url('./images/building-7077718_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;  
+    line-height: 1.6;
+  }
+
+  .interior .hero-section {
+    text-align: center;
+    margin: 30px 0;
+    color: #d3d3d3;
+  }
+ .interior .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d3d3d3;
+  }
+ .interior .quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #d3d3d3;
+    margin: 20px 0;
+  }
+ .interior .footer {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #e9ecef;
+    padding: 20px;
+    border-top: 1px solid #9f9898;
+  }
+ .interior .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+ .interior .contact-info {
+    margin-top: 20px;
+    font-size: 0.95rem;
+    color: #afacab;
+  }
+
+  
